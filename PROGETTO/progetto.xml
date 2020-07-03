@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="progetto.xsl"?>
+<?xml-stylesheet type="text/css" href="progetto.css"?>
+<!DOCTYPE TEI SYSTEM "tei_progetto.dtd" [
+    <!ENTITY agrave "&#224;">
+    <!ENTITY egrave "&#232;">
+    <!ENTITY ograve "&#242;">
+    <!ENTITY ugrave "&#249;">
+    <!ENTITY apos "&#39;">
+    <!ENTITY ndash "&#45;">
+    <!ENTITY quot "&#34;">
+    ]>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:lang="ita">
+    	<fileDesc>
+
+			<titleStmt>
+				<title>Vincenzo Bellini a Gaetano Cobianchi, in Parigi, 22 gennaio 1835</title>
+				<author ref="#VB">Vincenzo Bellini</author>
+                <respStmt>
+					<resp>Trascritto da</resp>
+					<name ref="#GS">Graziella Seminara</name>
+				</respStmt>
+			</titleStmt>
+
+			<editionStmt>
+				<edition>Edizione Digitale
+					<date when="2020-06">Giugno 2020</date>
+				</edition>
+				<respStmt>
+                    <resp>Coordinatori del progetto di codifica</resp>
+                    <name ref="#AMDG">Angelo Mario Del Grosso</name>
+					<name ref="#EC">Erica Capizzi</name>
+					<name ref="#DS">Daria Spampinato</name>
+				</respStmt>
+				<respStmt>
+					<resp>Codificato da</resp>
+					<name ref="#FM">Francesca Moretti</name>
+					<name ref="#LT">Lorenzo Tafi</name>
+				</respStmt>
+			</editionStmt>
+
+			<publicationStmt>
+				<publisher>
+					Universit&agrave; di Pisa
+				</publisher>
+				<availability>
+					<licence target="https://creativecommons.org/licenses/by/4.0/">CC&ndash;BY 4.0</licence>
+				</availability>
+			</publicationStmt>
+
+			<sourceDesc>
+				<bibl source="TEI-ListBibl.xml#Seminara2017" resp="#GS" >
+					<citedRange unit="page" from="453" to="453">453</citedRange>
+				</bibl>
+				<msDesc>
+					<msIdentifier>
+						<country>Italy</country>
+						<settlement>Catania</settlement>
+						<!--riferimento al catalogo delle sigle dei musei in cui è definito I-CATm + URI del nodo museo del dataset del Belliniano come secondo valore di ref-->
+						<repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436 https://www.MuseoBelliniano.it" n="I-CATm">Museo Belliniano di Catania</repository>
+						<idno type="inventory">LL1.18</idno>
+						<altIdentifier><idno type="collocation">in esposizione nella Casa Natale, sala B, vetrina 4, ripiano 2, II</idno></altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<msItem>
+							<author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
+							<title type="uniform" xml:lang="it">
+								<persName ref="#VB" role="composer">Vincenzo Bellini</persName> a <persName ref="#GCo" role="banker">Gaetano Cobianchi</persName>, in	
+							    <placeName ref="#Paris">Paris</placeName>,
+							    <date when="1835-01-22">22 gennaio 1835</date>
+							</title>
+							<textLang mainLang="it" otherLangs="fr">Il corpo della lettera &egrave; stato scritto in italiano di inizio Ottocento, fatta eccezione del termine &quot;stalle&quot;, mentre l&apos;indirizzo del destinatario &egrave; completamente in francese.</textLang>
+						</msItem>
+					</msContents>
+					
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<material>Carta sottile.</material>
+									<watermark></watermark>
+									<!-- descrizione dei timbri -->
+									<stamp> Sono presenti due timbri nel retro folio e un&apos;ombra dei due timbri nel fronte dello stesso folio. </stamp>
+									<!-- descrizione fisica della lettera -->
+									<p>La lettera &egrave; in buone condizioni fisiche: &egrave; composta da un solo folio, piegato in pi&ugrave; parti, con testo presente sia nel fronte che nel retro. 
+									La carta &egrave; sottile e di colore beige, mentre l&apos;inchiostro usato &egrave; di colore nero.
+									Nel fronte del folio la scrittura occupa principalmente la parte destra di quest&apos;ultimo, intensificandosi in basso a destra, mentre nel retro del foglio, 
+									essa &egrave; posta nella parte centrale, orientata sempre da sinistra verso destra. 
+									I due timbri, posti nella parte superiore del retro della lettera, uno accanto all&apos;altro, sono parzialmente leggibili.
+									</p>
+								</support>
+							    <extent>
+							    	<measure type="folio">1</measure>
+							    	<dimensions unit="mm">
+							            <height>132</height>
+										<width>203</width>
+									</dimensions>
+								</extent>
+								<foliation>
+									La lettera &egrave; stata piegata in pi&ugrave; parti.
+								</foliation>
+								<condition>
+									<p>Lettera in buone condizioni fisiche,
+									anche se sono ben visibili le parti in cui la lettera &egrave; stata piegata.</p>
+								</condition>
+							</supportDesc>
+						</objectDesc>
+						
+						<!--numero di mani presenti nella lettera compresa la principale-->
+						<handDesc hands="2">
+							<handNote>
+								<p>Scrittura a mano libera parzialmente leggibile, che si sviluppa da sinistra verso destra. Il fronte del folio presenta, presumibilmente, una notazione di seconda mano.
+							    </p>
+							</handNote>
+
+							 <!-- indica la seconda mano del catalogatore-->
+							<handNote xml:id="h1" cert="low">
+								<p>Annotazione attribuibile presumibilmente a un precedente catalogatore, che rappresenta la cifra 9.13.
+								</p>
+							</handNote>
+						</handDesc>
+					</physDesc>
+					<additional>
+						<adminInfo>
+							<note>
+								All&apos;interno del carteggio belliniano (LL), la segnatura LL1.18 identifica la diciottesima missiva in ordine cronologico 
+								del primo sottogruppo, che corrisponde alle lettere scritte da Vincenzo Bellini.
+							</note>
+						</adminInfo>
+					</additional>
+				</msDesc>
+
+				<listPerson>
+					<head>Lista persone</head>
+					<person xml:id="VB">
+						<persName role="composer">
+							<ref target="http://www.treccani.it/enciclopedia/vincenzo-bellini_(Dizionario-Biografico)"></ref>
+							<forename>Vincenzo</forename>
+						    <forename>Salvatore</forename>
+						    <forename>Carmelo</forename>
+						    <forename>Francesco</forename>
+					  	    <surname>Bellini</surname>
+						    <addName type="alias">Il Cigno</addName>
+                            <roleName type="honorific">Cavaliere della Legione d'onore</roleName> 
+					    </persName>
+					    <sex>M</sex>
+					    <birth>
+						    <date when="1801-11-03">3 Novembre 1801</date>
+						    <placeName xml:id="CT">
+							    <settlement type="municipaly">Catania</settlement>
+							    <settlement type="provincia">Catania</settlement>
+							    <country key="IT">Italia</country>
+						    </placeName> 
+					    </birth>
+					    <death>
+						    <date when="1835-09-23">23 Settembre 1835</date>
+						    <placeName xml:id="Put">
+							    <settlement type="municipaly">Puteaux</settlement>
+							    <settlement type="department" key="Paris">Paris</settlement>
+							    <country key="FR">Francia</country>
+						    </placeName>
+				 	    </death>
+				    </person>
+
+				    <person xml:id="GCo">
+					    <persName role="banker">
+						    <ref target="http://risorgimento.comune.verbania.it/"></ref>
+						    <forename>Gaetano</forename>
+						    <surname>Cobianchi</surname>
+					    </persName>
+					    <sex>M</sex>
+					    <birth>
+						    <date when="1794-08-06">6 Agosto 1794</date>
+						    <placeName xml:id="INT">
+							    <settlement type="municipaly">Verbania</settlement>
+							    <settlement type="provincia">Verbano-Cusio-Ossola</settlement>
+							    <country key="IT">Italia</country>
+						    </placeName>
+					    </birth>
+					    <death>
+					        <date>1866</date>
+					        <placeName ref="#Paris">Paris</placeName>
+					        <country key="FR">Francia</country>
+					    </death>
+				    </person>
+
+				    <person xml:id="MaryB">
+				    	<persName>
+				            <ref target = "http://risorgimento.comune.verbania.it/"></ref>
+						    <forename>Mary</forename>
+						    <surname>Burdon</surname>
+					    </persName>
+					    <sex>F</sex>
+					    <birth>
+					        <date type="unknown"/>
+					        <placeName type="unknown"/>
+					    </birth>
+					    <death>
+					        <date type="unknown"/>
+						    <placeName type="unknown"/>
+					    </death>
+				    </person>
+				    <listRelation>
+				        <relation name="spouse" mutual="#GCo #MaryB"></relation>
+					</listRelation>
+			    </listPerson>
+
+			    <listPlace>
+			    	<head>Lista luoghi</head>
+			    	<place xml:id="Paris">
+			    		<placeName ref="http://www.treccani.it/enciclopedia/ricerca/parigi/">Paris</placeName>
+			    		<country key="FR">Francia</country>
+			    	</place>
+
+			    	<place xml:id="PDLMadelaine" type="square">
+			    		<placeName ref="https://en.parisinfo.com/transport/73127/Place-de-la-Madeleine">place de la Madelaine</placeName>
+                	    <settlement type="department">Paris</settlement>
+                        <country key="FR">Francia</country>
+                    </place>
+		        </listPlace>
+
+		        <list type="terminology">
+		        	<head>Lista termini</head>
+		        	<label>
+		        		<term subtype="music-term" xml:lang="it" xml:id="opera" key="">Opera</term>
+		    	    </label>
+		    	    <item>
+		    	    	<gloss xml:lang="it" target="#opera" xml:id="def1" source="TEI-ListBibl.xml#DellaSeta2010">
+		    	    		(dal plurale del latino opus, nel senso di “manufatto”) Spettacolo teatrale in cui l’azione si manifesta principalmente attraverso la musica e l’espressione canora dei personaggi. L’opera è un genere complesso, fondato sulla cooperazione tra testo letterario (<term subtype="music-term" ref="#libretto">libretto</term>), allestimento scenico e musica, che ha comunque una funzione essenziale nel caratterizzare drammaticamente il lavoro (drammaturgia musicale). Le differenti possibilità di relazione che intercorrono tra musica, libretto e aspetti scenici rendono pressoché impossibile una definizione univoca di opera. A ciò si aggiungono le difficoltà causate dall’evoluzione compiuta in quattro secoli di storia, dalla presenza sotto una comune etichetta di generi tra loro estremamente lontani, dalle specificità nazionali (sotto il profilo sia drammaturgico sia organizzativo). L’opera nacque nell’Italia del primo Seicento (Firenze, Mantova, Roma) come spettacolo di corte con carattere prevalentemente celebrativo. Dalla fine degli anni trenta, con l’apertura a Venezia dei primi teatri pubblici a pagamento, si impose il modello dell’opera <term subtype="music-term" ref="#impresario">impresariale</term>, che produsse in Italia, con la rapida e diffusa circolazione di cantanti, compositori, scenografi, l’attività di una miriade di sale teatrali sparse sul territorio (dalle grandi capitali dotate di numerosi palcoscenici ai piccoli centri) e una produzione sterminata di nuovi lavori (nel XVIII secolo e nella prima metà del XIX secolo i compositori arrivavano a scrivere tre o quattro novità all’anno). Tale modello si diffuse ben presto in Europa, imponendo nel Settecento – nelle tre declinazioni dell’<term subtype="music-term" ref="#opera_seria">opera seria</term>, dell’<term subtype="music-term">opera buffa</term> e poi dell’<term subtype="music-term">opera semiseria</term> – il predominio italiano che perdura ancor oggi nei cartelloni dei teatri di tutto il mondo.<gap reason="editorial"/>
+                        </gloss>
+                    </item>
+
+                    <label>
+                    	<term subtype="music-term" xml:lang="it" xml:id="loggione" key="">Loggione</term>
+                    </label>
+                    <item>
+                    	<gloss xml:lang="it" target="#loggione" xml:id="def2" source="TEI-ListBibl.xml#DellaSeta2010">
+                    		Il settore più alto degli ordini architettonici di un <term subtype="music-term">teatro all'italiana</term>, i cui posti sono i più economici. Per estensione, l'insieme degli spettatori che lo frequentano (loggionisti), di solito appassionati e intransigenti giudici delle prestazioni dei cantanti. 
+                        </gloss>
+                    </item>
+                </list>
+            </sourceDesc>
+        </fileDesc>
+
+		<profileDesc> 
+			<correspDesc>  <!--mittente e destinatario-->
+				<correspAction type = "sent">
+					<persName ref="#VB" role="composer">Vincenzo Bellini</persName>
+					<placeName ref = "#Paris">Paris</placeName>
+					<date when="1835-01-22" type="postmark">22 gennaio 1835</date>
+				</correspAction>
+				<correspAction type = "received">
+					<persName ref = "#GCo" role="banker">Gaetano Cobianchi</persName>
+					<placeName ref = "#Paris">Paris</placeName>
+				</correspAction>
+				<correspContext>
+					<p>Non &egrave; presente un contesto di riferimento</p>
+				</correspContext>
+			</correspDesc>
+
+			<textClass>
+				<!--schema di codifica contenente le parole chiave -->
+				<keywords scheme = "http://thes.bncf.firenze.sbn.it">
+					<term resp = "#GS"> biglietto
+					</term>
+				</keywords>
+			</textClass>
+
+			<langUsage>
+				<language ident = "it">italiano di inizio Ottocento</language>
+				<language ident = "fr">francese</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+
+
+	<facsimile>
+		<!--FRONTE -->
+		<surface n="1" xml:id="LL1.18_folio_1f">
+			<graphic url='img/fronte.jpg' width='2048px' height='1354px' />
+			<zone ulx="633" uly="426" lrx="1683" lry="549" rendition="Line" xml:id="LL1.18_line_1f_01" />
+			<zone ulx="690" uly="524" lrx="1648" lry="660" rendition="Line" xml:id="LL1.18_line_1f_02" />
+			<zone ulx="723" uly="653" lrx="1696" lry="777" rendition="Line" xml:id="LL1.18_line_1f_03" />
+			<zone ulx="746" uly="776" lrx="1620" lry="891" rendition="Line" xml:id="LL1.18_line_1f_04" />
+			<zone ulx="758" uly="875" lrx="1518" lry="985" rendition="Line" xml:id="LL1.18_line_1f_05" />
+			<zone points = ' 1926,940 1699,937 1506,943 1392,961 1277,970 1181,977 1062,978 889,991 814,995 810,1083 897,1090 1015,1078 1111,1076 1217,1068 1389,1055 1614,1048 1629,1063 1665,1052 1694,1037 1922,1038 ' 
+			rendition="Line" xml:id="LL1.18_line_1f_06" />
+			<zone ulx="817" uly="1047" lrx="1711" lry="1157" rendition="Line" xml:id="LL1.18_line_1f_07" />
+			<zone ulx="850" uly="1130" lrx="1941" lry="1230" rendition="Line" xml:id="LL1.18_line_1f_08" />
+			<zone points = ' 1856,1208 1686,1208 1659,1191 1627,1188 1597,1203 1365,1208 1339,1218 1305,1243 1175,1230 1169,1205 1125,1206 1091,1230 1032,1208 994,1231 926,1233 921,1292 969,1278 1016,1277 1047,1272 1064,1265 1094,1273 1247,1278 1292,1262 1327,1275 1365,1268 1687,1263 1699,1283 1801,1277 1840,1263 1855,1277 ' rendition="Line" xml:id="LL1.18_line_1f_09" />
+			<zone points = ' 2019,1256 1864,1257 1764,1282 1705,1281 1624,1262 1480,1271 1404,1271 1380,1265 1334,1283 1299,1260 1245,1285 1095,1282 1075,1265 1040,1275 952,1282 949,1317 1160,1322 1177,1311 1196,1320 1754,1317 1769,1323 1797,1317 2009,1316 ' rendition="Line" xml:id="LL1.18_line_1f_10" />
+			
+			<!--timbro grande del mittente-->
+			<zone ulx="920" uly="90" lrx="1209" lry="350"  rendition="HotSpot" xml:id="LL1.18_hotspot_1f_01"/>
+			
+			<!--timbro piccolo del destinatario-->
+			<zone ulx="1207" uly="190" lrx="1403" lry="352"  rendition="HotSpot" xml:id="LL1.18_hotspot_1f_02"/>
+			
+			<!--presunto numero di catalogazione-->
+			<zone ulx="45" uly="46" lrx="136" lry="103" rendition="HotSpot" xml:id="LL1.18_hotspot_1f_03"/>
+		</surface>
+        
+        <!--RETRO-->
+		<surface n="2" xml:id="LL1.18_folio_1r">
+			<graphic url='img/retro.jpg' width='2048.5px' height='1328.5px' />
+			
+			<!--zona con l'indirizzo del destinatario-->
+            <zone ulx="648" uly="661" lrx="1556" lry="753" rendition="Line" xml:id="LL1.18_line_1r_01" />
+            <zone ulx="704" uly="766" lrx="1466" lry="846" rendition="Line" xml:id="LL1.18_line_1r_02" />
+            <zone ulx="1074" uly="849" lrx="1419" lry="934" rendition="Line" xml:id="LL1.18_line_1r_03" />
+            
+			<!--timbro grande del mittente-->
+            <zone ulx="857" uly="87" lrx="1112" lry="347" rendition="HotSpot" xml:id="LL1.18_hotspot_1r_01" />
+            
+			<!--timbro piccolo del destinatario-->
+            <zone ulx="675" uly="188" lrx="847" lry="351" rendition="HotSpot" xml:id="LL1.18_hotspot_1r_02" />
+        </surface>
+    </facsimile>
+
+
+    <text type="letter" xml:id="LL1.18" subtype="manuscript" n="LL1.18">
+    	<front>
+		<!--RETRO-->
+    		<pb n="2" xml:id="LL1.18_fol_1r_front" facs="#LL1.18_folio_1r" />
+    		<div type="envelope">
+
+    		<div type="sent">
+    			<!--timbro del mittente con data-->
+    			<ab xml:id="LL1.18_hs_1r_01" facs="#LL1.18_hotspot_1r_01" copyOf="#LL1.18_hs_1r_01_body">
+    				<stamp type="postmark">
+    					<mentioned>
+    						<date when="1835-01-22">22 Janvier 1835</date>
+    					</mentioned>
+    				</stamp>
+    			</ab>
+    		</div>
+
+    		<div type="destination">
+    			<!--timbro del destinatario incompleto-->
+    			<ab xml:id="LL1.18_hs_1r_02" facs="#LL1.18_hotspot_1r_02" copyOf="#LL1.18_hs_1r_02_body">
+    				<stamp type="postmark">
+    					<mentioned  cert="low">
+						<c>J</c> <unclear reason= "illegible" agent="rubbing" />&ndash;<num value ="2">II</num> 
+    					</mentioned>
+    				</stamp>
+    			</ab>
+    			<ab type="receiver">
+    				<address>
+    					<!--informazioni del destinatario-->
+    					<lb xml:id="LL1.18_lb_1r_01" n="1" facs="#LL1.18_line_1r_01" />
+    					<addrLine>&agrave; Monsieur le <expan><abbr>Chev<am>:</am><g rend="superscript">r</g></abbr></expan><persName ref="#GCo" role="banker">Cobianchi</persName>
+    					</addrLine>
+
+    					<lb xml:id="LL1.18_lb_1r_02" n="2" facs="#LL1.18_line_1r_02" />
+    					<addrLine><num type="cardinal">1</num><pc>:</pc>
+    					<placeName ref="#PDLMadelaine">place de la Madelaine</placeName>
+    					</addrLine>
+
+    					<lb xml:id="LL1.18_lb_1r_03" n="3" facs="#LL1.18_line_1r_03" />
+    					<addrLine>&agrave;<placeName ref="#Paris">Paris</placeName>
+    					</addrLine>
+    				</address>
+    			</ab>
+    		</div>
+    	</div>
+        </front>  
+
+        <body xml:lang="it">
+        	<div type="fronte">
+        	
+                <!--seconda mano del bibliotecario-->
+                   	<ab type="paratext" subtype="addition" hand="#h1" facs="#LL1.18_hotspot_1f_03">
+                   		<hi rend="align(left)"><unclear reason="illegible" cert="medium" resp="#FM #LT"><idno>9.13</idno></unclear></hi>
+                   	</ab>
+                </div>
+     
+                <div type="sent">
+                	                                   <!--ombra dei timbri -->
+    			<!--timbro del mittente con data-->
+    			<ab facs="#LL1.18_hotspot_1f_01">
+    				<stamp type="postmark">
+    					<mentioned>
+    						<date when="1835-01-22">22 Janvier 1835</date>
+    					</mentioned>
+    				</stamp>
+    			</ab>
+    		    </div>
+
+    		    <div type="destination">
+
+    			<!--timbro del destinatario incompleto-->
+    			<ab facs="#LL1.18_hotspot_1f_02">
+    				<stamp type="postmark">
+    					<mentioned  cert="low">
+    						<c>J</c><unclear reason= "illegible" />&ndash;<num value ="2">II</num> 
+    					</mentioned>
+    				</stamp>
+    			</ab>
+  	
+  	           <!-- mancata apertura della lettera-->
+        		<div type="opener"><gap reason="lost" extent="unknown" /></div>
+        		<pb n="1" xml:id="LL1.18_fol_1f" facs="#LL1.18_folio_1f"/>
+                
+                <!--contenuto del fronte -->
+        		<div type="letter-body">
+        			<salute n="ab_01">
+        				<s type="sentence" n="s_01">
+        					<lb xml:id="LL1.18_lb_1f_01" n="1" facs="#LL1.18_line_1f_01" />
+        					<hi rend="align(right)">Mio caro Amico<ptr target="#LL1_18_note1" /> <pc>:</pc> eccoti un biglietto </hi>
+        				</s>
+        			</salute>
+        			<ab type="parag" n="ab_02">
+        				<s type="sentence" n="s_02">
+        					
+        					<seg type="line" n="01">
+        						<lb xml:id="LL1.18_lb_1f_02" n="2" facs="#LL1.18_line_1f_02"  /><hi rend="align(right)">per la tua <rs type="person">famiglia</rs> &ndash; Non si danno </hi>
+        					</seg>
+
+        					<seg type="line" n="02">
+        						<lb xml:id="LL1.18_lb_1f_03" n="3" facs="#LL1.18_line_1f_03" />
+        						<hi rend="align(right)"><term subtype="music-term" ref = "TEI-ListTerm.xml#loggione">logge<pc>,</pc></term>
+        						ma <sic>chiarriva</sic> prima ha i </hi>
+        					</seg>
+
+        					<seg type="line" n="03">
+        						<lb xml:id="LL1.18_lb_1f_04" n="4" facs="#LL1.18_line_1f_04" />
+        						<hi rend="align(right)">migliori posti<pc>,</pc> essendo tutto il teatro</hi>
+                   		    </seg>
+
+        					<seg type="line" n="04">
+        						<lb xml:id="LL1.18_lb_1f_05" n="5" facs="#LL1.18_line_1f_05"/>
+        						<hi rend="align(right)">a disposizione degl&apos;invitati<pc>.</pc></hi>
+                   		    </seg>
+                   		</s>
+                   	</ab>
+                   	<ab type="parag" n="ab_03">
+                   		<s type="sentence" n="s_03">
+
+        					<seg type="line" n="05">
+        						<lb xml:id="LL1.18_lb_1f_06" n="6" facs="#LL1.18_line_1f_06" />
+        						<hi rend="align(right)">Voglio che tu <sic>assisti</sic> alla <expan><abbr>1<am>:</am><g rend="superscript">a</g></abbr></expan>
+        						<expan><abbr> rap<am>:</am><ex resp="#GS">presentazio</ex><g rend="superscript">ne</g></abbr></expan> della</hi>
+                            </seg>
+
+        					<seg type="line" n="06">
+        						<lb xml:id="LL1.18_lb_1f_07" n="7" facs="#LL1.18_line_1f_07"/>
+        						<hi rend="align(right)">mia <term subtype="music-term" ref="TEI-ListTerm.xml#opera">opera</term> ed &egrave; perci&ograve; che ti ho</hi>
+        					</seg>
+
+        					<seg type="line" n="07">
+        						<lb xml:id="LL1.18_lb_1f_08" n="8" facs="#LL1.18_line_1f_08" />
+        						<hi rend="align(right)">preparato <hi rend="underline">una stalle</hi><ptr target="#LL1_18_note2" /><pc>.</pc>&ndash; Lascerai per</hi>
+                   			</seg>
+
+        					<seg type="line" n="08">
+        						<lb xml:id="LL1.18_lb_1f_09" n="9" facs="#LL1.18_line_1f_09" />
+        						<hi rend="align(right)">quella sola sera la tua amabile <persName ref="#MaryB">sposa</persName></hi>
+                   			</seg>
+
+        					<seg type="line" n="09">
+        						<lb xml:id="LL1.18_lb_1f_10" n="10" facs="#LL1.18_line_1f_10" />
+        						<hi rend="align(right)"><abbr>pel</abbr> tuo <persName ref="#VB" role="composer">Bellini</persName> che t&apos;ama assai</hi>
+                   			</seg>
+                   		</s>
+                   	</ab>
+                </div>
+            <!--chiusura della lettera -->
+                <div type="closer" n="c_01">
+                   	<salute n="ab_04">
+                   	    <s type="sentence" n="s_04">
+                   		  <hi rend="align(right)"><w>Addio</w></hi>
+                        </s>
+                   	</salute>
+                </div>
+            </div>
+            
+            <!--contenuto del retro-->
+            <div type="retro">
+	            <div type="sent">
+	            	<pb xml:id="LL1.18_fol_1r_body" facs="#LL1.18_folio_1r"/>
+    	            <!--timbro del mittente con data-->
+    	            <ab xml:id="LL1.18_hs_1r_01_body" facs="#LL1.18_hotspot_1r_01">
+    	            	<stamp type="postmark" >
+    	               		<mentioned>
+    	               			<date when="1835-01-22">22 janvier 1835</date>
+    	               	    </mentioned>
+    	               	</stamp>
+    	            </ab>
+    	        </div>
+    	        <div type="destination">
+    	        	<!--timbro del destinatario incompleto-->
+    	            <ab xml:id="LL1.18_hs_1r_02_body" facs="#LL1.18_hotspot_1r_02">
+    	               	<stamp type="postmark">
+    	               		<mentioned>
+							   <c>J</c><unclear reason= "illegible" /><pc>&ndash;</pc><num>II</num> 
+    	               		</mentioned>
+    	               	</stamp>
+    	            </ab>
+    	            <ab type="receiver">
+    	               	<address>
+    	               	<!--informazioni del destinatario-->
+    	                   
+    	               		<lb xml:id="LL1.18_lb_1r_01_body" n="1" facs="#LL1.18_line_1r_01" />
+    	               		<addrLine n="1">&agrave; Monsieur le <expan><abbr>Chev<am>:</am><g rend="superscript">r</g></abbr></expan><persName ref="#GCo" role="banker"> Cobianchi</persName></addrLine>
+    	               		
+    	               		<lb xml:id="LL1.18_lb_1r_02_body" n="2" facs="#LL1.18_line_1r_02" />
+    	               		<addrLine n="2"><num type="cardinal">1</num><pc>:</pc>
+    	               		<placeName ref="#PDLMadelaine">place de la Madelaine</placeName>
+							</addrLine>
+						  
+    	               		<lb xml:id="LL1.18_lb_1r_03_body" n="3" facs="#LL1.18_line_1r_03" />
+                            <addrLine n="3">&agrave; <placeName ref ="#Paris"> Paris</placeName></addrLine>
+                            	
+    	               	</address>
+    	            </ab>
+    	        </div>
+    	    </div>
+    	</body>
+    	
+    	<back>
+    		<div type="notes">
+    			<note xml:id = "LL1_18_note1" source = "TEI-ListPerson.xml#Seminara2017" resp="#GS">
+    				<p> 
+    					<persName ref="#VB" role="composer">Bellini</persName>  si riferisce all'amico
+    					<persName ref = "#GCo" role="banker">Gaetano Cobianchi</persName>
+    				</p>
+    			</note>
+
+    			<note xml:id = "LL1_18_note2" source = "TEI-ListTerm.xml#Seminara2017" resp="#GS">
+    				<p> <persName ref="#VB" role="composer"> Bellini </persName> 
+    				usa un francesismo per indicare i posti numerati.
+    				</p>
+    			</note>	
+    		</div>
+    		
+    		<div type="bibliografia">
+    			<listBibl xml:id="LL1.18_bibliography">
+    				<head>Bibliografia della lettera LL1.18</head>
+    				<bibl xml:id="LL1_18_Neri">
+    					<ref target="#Neri2005">
+    						<bibl>
+    							<author>
+    								<surname>Neri</surname>
+    							</author>
+    							<date when="2005">2005</date>
+    							<citedRange unit="page" from="368" to="368">368</citedRange>
+    						</bibl>
+    					</ref>
+    				</bibl>
+    				<bibl xml:id="LL1_18_Seminara">
+    					<ref target="#GS">
+    						<bibl>
+    							<author>
+    								<surname>Seminara</surname>
+    							</author>
+    							<date when="2017">2017</date>
+    							<citedRange unit="page" from="453" to="453">453</citedRange>
+								<citedRange unit="page" from="366" to="366">366</citedRange>
+    						</bibl>
+    					</ref>
+    				</bibl>
+    			</listBibl>
+    		</div>
+        </back>
+    </text>	
+</TEI>

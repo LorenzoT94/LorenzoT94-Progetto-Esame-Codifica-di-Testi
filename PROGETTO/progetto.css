@@ -1,0 +1,452 @@
+
+@font-face {
+   font-family: Oceanside_Typewriter;
+   src: url(font/OceansideTypewriter.ttf);
+}
+
+@font-face {
+   font-family: Courier_Polski_1941;
+   src: url(font/zai_CourierPolski1941.ttf);
+}
+
+@font-face {
+  font-family: OldNewspaperTypes;
+  src: url(font/OldNewspaperTypes.ttf);
+}
+
+@font-face {
+  font-family: Folks;
+  src: url(font/Folks-Normal.ttf);
+}
+
+h1{
+  font-family:"Courier_Polski_1941";
+  font-size: 35px;
+}
+/*contenitore dell'header*/
+#contgenerale {
+  overflow: auto;
+  padding: 5px;
+  background-image: url("img/sfondo2.jpg");
+  font-family: "Courier_Polski_1941"; 
+}
+
+#imgfranc {
+  float: left;
+  width: 200px;
+  height: 200px;
+}
+
+
+#cappello_introduttivo {
+  background-color: beige;
+  font-family: "Oceanside_Typewriter" ; 
+  font-size: 17px;
+  padding: 10px;
+  margin: 20px;
+  border: solid 2px black;
+
+}
+
+body {
+  background-image: url("img/sfondo2.jpg");
+}
+
+ul.menu {
+  font-family: "Folks";
+  font-size: 18px; 
+  list-style-type: none;
+  margin: 0px;
+  padding: 20px;
+  overflow: hidden;
+  background-color: black;
+}
+
+ul.menu li {
+  float: left;
+}
+
+ul.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+ul.menu li a:hover {
+  background-color:rgb(220,20,60);
+}
+
+#caratteristiche_lettera{
+  font-family: "Oceanside_Typewriter";
+  background-image: url("img/sfondo3.jpg"); 
+  font-size: 17px;
+  padding: 10px;
+  margin: 30px;
+  border: dotted 2px black;
+}
+
+#collocazione_lettera{
+  font-family: "Oceanside_Typewriter";
+  background-image: url("img/sfondo3.jpg"); 
+  font-size: 17px;
+  padding: 10px;
+  margin: 30px;
+  border: dotted 2px black;
+}
+
+#dimensioni_lettera{
+  font-family: "Oceanside_Typewriter";
+  background-image: url("img/sfondo3.jpg"); 
+  font-size: 17px;
+  padding: 10px;
+  margin: 30px;
+  border: dotted 2px black;
+}
+
+#lingua_lettera{
+  font-family: "Oceanside_Typewriter";
+  background-image: url("img/sfondo3.jpg"); 
+  font-size: 17px;
+  padding: 10px;
+  margin: 30px;
+  margin-bottom: 80px;
+  border: dotted 2px black;
+}
+
+#decoro{
+  width: 400px;
+  height: 150px;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 40px;
+}
+
+/* contenitore generico */
+#cont {
+  overflow: auto;
+  border: none;
+  padding: 0px;
+  height: auto;
+  margin: 0px;
+}
+
+/* contenitore info mittente */
+  #info1{
+  font-family: "Oceanside_Typewriter";
+  background-image: url("img/sfondomitdes.jpg"); 
+  border: 3px solid black;
+  border-radius: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 65px;
+  margin-left: 50px;
+  height: auto;
+  width: 500px;
+  float:left;
+  
+  }
+
+/* contenitore info destinatario*/
+  #info2{
+  font-family: "Oceanside_Typewriter";
+  background-image: url("img/sfondomitdes.jpg"); 
+  border: 3px solid black;
+  border-radius: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  height: auto;
+  margin-right: 40px;
+  width: 500px;
+  float:right;
+  }
+
+  #mit{
+  font-size: 17px;
+  font-family: "Oceanside_Typewriter";
+  }
+
+  #des{
+  font-size: 17px;
+  font-family: "Oceanside_Typewriter";
+  }
+
+h5{
+  font-size: 20;
+}
+
+/* div contenente la codifica del fronte + div contenene
+la codifica del retro */
+
+.button {
+  font-family: "Oceanside_Typewriter";
+  border-radius: 4px;
+  background-color: grey;
+  border: 3px white solid;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-bottom: 50px;
+}
+
+.button span {
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\270D';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#numero1{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+#numero2{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;  
+}
+
+#contimg {
+  margin-top: 0px;
+  margin-left: 350px;
+  width: 50%;
+  padding: 10px;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+#timbro1{
+  border-radius: 50%;
+  padding: 5px;
+  background-image: url("img/sfondo.jpg"); 
+  width: 75px;
+  margin-left: 45%;
+  border: 3px solid black; 
+}
+
+#timbro2{
+  border-radius: 50%;
+  padding: 5px;
+  background-image: url("img/sfondo.jpg"); 
+  width: 60px;
+  height: auto;
+  margin-left: 35%;
+  border: 3px solid black;
+}
+
+.conttesto{
+  font-family: "OldNewspaperTypes";
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  background-image: url("img/sfondo.jpg"); 
+  border: 3px solid black;  
+  margin-top: 50px;
+  margin-left: 350px;
+}
+
+#numcatalog{
+  margin-right: 600px;
+}
+
+#testoletterafronte{
+  text-align: right;
+}
+
+.glossario{
+  font-family: Oceanside_Typewriter;
+  font-size:20px;
+  margin-left: 20px;
+  background-color: beige;
+  padding:10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom: 5px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+  height: auto; 
+  font-family: "Oceanside_Typewriter";
+}
+
+
+#persona1{
+  margin:10px;
+  margin-bottom:50px;
+  background-color: beige;
+  padding:20px;
+}
+
+#persona2{
+  margin:10px;
+  margin-bottom:50px;
+  background-color: beige;
+  padding:20px;
+}
+
+#persona3{
+  margin:10px;
+  margin-bottom:50px;
+  background-color: beige;
+  padding:20px;
+}
+
+#luogo1{
+  margin:10px;
+  margin-bottom:50px;
+  background-color: beige;
+  padding:20px;
+}
+
+#luogo2{
+  margin:10px;
+  margin-bottom:50px;
+  background-color: beige;
+  padding:20px;
+}
+
+#termini{
+  margin:10px;
+  margin-bottom:50px;
+  border-style: 3px solid black;
+  background-color: beige;
+  padding:20px;
+}
+
+#crediti{
+  font-family: "Oceanside_Typewriter";
+  background-image: url("img/sfondo3.jpg");
+  width: 100%; 
+  border: 2px dashed black;
+  font-size: 17px;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  padding:25px;
+}
+
+.note{
+  font-family: "Oceanside_Typewriter";
+  margin:10px;
+  margin-bottom:40px;
+  border-style: 3px solid black;
+  background-color: beige;
+  padding:20px;
+  width: 50%;
+  margin-left: 350px;
+}
+
+#bibliografia{
+  font-family: "Oceanside_Typewriter";
+  margin:10px;
+  margin-bottom:20px;
+  border-style: 3px solid black;
+  background-color: beige;
+  padding: 20px;
+  margin-left: 350px;
+  width: 50%;
+}
+
+#link:hover {
+  background-color: yellow;
+  text-decoration: none;
+}
+
+#link{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 756px) {
+
+
+
+.button {
+  border-radius: 4px;
+  background-color: grey;
+  border: 3px white solid;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 100px;
+  margin-left: 20px;
+  position: relative;
+}
+
+  }
+
+
+@media screen and (max-width: 476px) {
+
+  #info1{
+  border: 3px solid black;
+  border-radius: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top:40px;
+  padding-bottom:40px;
+  margin-left:50px;
+  height: auto;
+  width: 180px;
+  float:left;
+  }
+
+ #info2{
+  border: 3px solid black;
+  border-radius: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height: auto;
+  margin-right: 50px;
+  width: 180px;
+  float:right;
+  }
+}
